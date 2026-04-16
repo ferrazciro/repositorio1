@@ -1,0 +1,10 @@
+void main() {
+
+    // A conversão ainda é nessessária para tipos numéricos
+    int n1 = Integer.parseInt(IO.readln("Digite o primeiro número: "));
+    int n2 = Integer.parseInt(IO.readln("Digite o segundo número: "));
+
+    int multiplicacao = n1 * n2;
+
+    IO.println("A multiplicação é: " + multiplicacao);
+}
