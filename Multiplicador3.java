@@ -1,4 +1,3 @@
-
 void main(){
 
     int numero = Integer.parseInt(IO.readln("Informe um número: "));
